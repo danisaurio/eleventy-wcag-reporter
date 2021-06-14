@@ -111,7 +111,7 @@ layout: base
       <h3 id="{{ issue.data.title  | slugify }}" data-issue="{{ translations.issue[language] }}" class="issue-title">{{ issue.data.title }}</h3>
       {{ issue.templateContent | safe }}
 
-      <div class="issue-meta">
+      {# <div class="issue-meta">
         <dl>
           <div>
             <dt>{{ translations.wcag_criterion[language] }}: </dt>
@@ -140,7 +140,7 @@ layout: base
             {% endif %}
           </div>
         </dl>
-      </div>
+      </div> #}
     </article>
     {% endif %}
   {% endfor %}
