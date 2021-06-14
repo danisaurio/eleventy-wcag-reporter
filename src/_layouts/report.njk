@@ -34,8 +34,39 @@ layout: base
 <section id="executive-summary">
   <h2>{{ translations.executive_summary[language] }}</h2>
   {% markdown "/src/reports/" + page.fileSlug + "/summary.md" %}
-  <h3>{{ translations["results_per_principle"][language] }}</h3>
+  <h3>{{ translations["results_per_principle"][language] }}*</h3>
+  <p>* El número total de principios puede estar considerando criterios no aplicables</p>
   {% sc_table issueList, language, evaluation.targetLevel, evaluation.targetWcagVersion %}
+  <section id="results">
+  <h3>Resultados por lineamiento</h3>
+  <p>En base a los resultados recabados podemos indicar que la web posee los siguientes porcentajes de compliance en los distintos estándares:</p>
+  <table>
+      <tr>
+          <th>Lineamiento</th>
+          <th>Tipo A</th>
+          <th>Tipo AA</th>
+          <th>Total</th>
+      </tr>
+      <tr>
+          <td>Criterios Evaluados</td>
+          <td>{{results.aEv}}</td>
+          <td>{{results.aaEv}}</td>
+          <td>{{results.aEv + results.aaEv}}</td>
+      </tr>
+      <tr>
+          <td>Criterios Cumplidos</td>
+          <td>{{results.aOk}}</td>
+          <td>{{results.aaOk}}</td>
+          <td>{{results.aOk + results.aaOk}}</td>
+      </tr>
+      <tr class="resultsTotal">
+          <td>Compliance</td>
+          <td>{{results.aPercentage}}%</td>
+          <td>{{results.aaPercentage}}%</td>
+          <td>{{results.total}}%</td>
+      </tr>
+  </table>
+</section>
 </section>
 
 <section id="explanation-of-report">
@@ -80,7 +111,7 @@ layout: base
 
 <section id="sample">
   <h2>{{ translations.sample[language] }}</h2>
-  <p>{{ translations.representative_sample[language] }}</p>
+  {# <p>{{ translations.representative_sample[language] }}</p> #}
   <ul class="sample-list">
     {% for sample in sample %}
     <li id="{{ sample.id }}">

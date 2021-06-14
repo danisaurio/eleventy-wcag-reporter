@@ -77,7 +77,7 @@
     "en": "Issues",
     "nl": "Bevindingen",
     "pt-br": "Problemas",
-    "es": "Problemas"
+    "es": "Problemas encontrados"
   },
   "wcag_criterion": {
     "en": "WCAG criterion",
@@ -107,7 +107,7 @@
     "en": "About this report",
     "nl": "Toelichting bij dit rapport",
     "pt-br": "Sobre esse relatório",
-    "es": "Resultados"
+    "es": "Sobre este informe"
   },
   "principle": {
     "en": "Principle",
