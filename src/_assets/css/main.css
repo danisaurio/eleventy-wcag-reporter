@@ -6,7 +6,7 @@
 body { 
     max-width: 80em;
     margin: 2em auto;
-    font-family: "Noto Serif", "Georgia", serif;
+    font-family: sans-serif;
 }
 
 .report-list {

@@ -1,5 +1,5 @@
 #! /bin/sh
 
-prince ./dist/reports/$1/index.html -o pdfs/$1.pdf --pdf-profile="PDF/UA-1"
+prince ./dist/reports/CAS/index.html -o pdfs/CAS.pdf --pdf-profile="PDF/UA-1"
 
-open pdfs/$1.pdf
+open pdfs/CAS.pdf

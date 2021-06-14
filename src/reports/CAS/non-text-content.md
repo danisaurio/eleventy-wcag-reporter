@@ -5,7 +5,7 @@ title: Contenido no textual
 
 <figure>
 
-![alt text](images/carrouselImage.png) 
+![alt text](images/icons.png) 
 
 </figure>
 
@@ -17,6 +17,6 @@ Se evidencia el uso de textos alternativos en las imágenes presentes en el siti
 
 Remover el textos alternativos en imagen con propósito decorativo y ampliar explicación de contenido en imágenes con propósito informativo
 
-#### Read more
+#### Leer más
 
 - [Comprendiendo el criterio de exito 1.1.1: Contenido no-textual](https://www.w3.org/WAI/WCAG21/Understanding/non-text-content.html)

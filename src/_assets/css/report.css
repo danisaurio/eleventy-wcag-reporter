@@ -158,6 +158,9 @@ code {
     max-width: 12em;
     max-height: 100%;
 }
+.sc-table thead{
+    font-weight: 600;
+}
 
 .sc-table dt:last-of-type,
 .sc-table dd:last-of-type {
