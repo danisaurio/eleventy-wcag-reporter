@@ -15,7 +15,7 @@ Presencia de botones sin instrucciones de uso más que las indicadas de forma vi
 
 #### Solución
 
-Utilizar labels o nombres en dichos elementos
+Utilizar labels o nombres en dichos elementos.
 
 #### Leer más
 

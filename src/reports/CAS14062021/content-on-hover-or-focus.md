@@ -5,11 +5,11 @@ title: Contenido en hover o foco
 
 #### Problema
 
-Se evidencia pérdida de foco en algunas partes de la navegación
+Se evidencia pérdida de foco en algunas partes de la navegación.
 
 #### Solución
 
-Utilizar props aris adecuadas a cada elementos asi como tab-index
+Utilizar props `aria` adecuadas a cada elementos así como tab-index.
 
 #### Leer más
 

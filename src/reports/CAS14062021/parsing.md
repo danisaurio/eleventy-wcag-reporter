@@ -5,11 +5,11 @@ title: Parseo
 
 #### Problema
 
-Se evidencian fallas en el uso de HTML
+Se evidencian fallas en el uso de HTML.
 
 #### Solución
 
-Utilizar elementos HTML de acuerdo a las especificaciones
+Utilizar elementos HTML de acuerdo a las especificaciones.
 
 #### Leer más
 

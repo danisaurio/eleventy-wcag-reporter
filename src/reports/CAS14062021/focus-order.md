@@ -5,11 +5,11 @@ title: Orden de foco
 
 #### Problema
 
-Foco alterado en algunas partes del sitio
+Foco alterado en algunas partes del sitio.
 
 #### Solución
 
-Mantener foco constante en el sitio ante navegacion por teclado y utilizar tab-index en caso de corresponder
+Mantener foco constante en el sitio ante navegación por teclado y utilizar tab-index en caso de corresponder.
 
 #### Leer más
 

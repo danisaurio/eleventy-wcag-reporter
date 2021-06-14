@@ -11,11 +11,11 @@ title: Información y relaciones
 
 #### Problema
 
-La página carece de una estructura relacional adecuada, no se evidencia uso de landmark ‘Main’
+La página carece de una estructura relacional adecuada, no se evidencia uso de landmark `main`.
 
 #### Solución
 
-Utilizar el landmark `main` Para indicar el la posicion del contenido principal del sitio
+Utilizar el landmark `main` Para indicar la posición del contenido principal del sitio.
 
 #### Leer más
 

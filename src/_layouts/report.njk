@@ -35,11 +35,11 @@ layout: base
   <h2>{{ translations.executive_summary[language] }}</h2>
   {% markdown "/src/reports/" + page.fileSlug + "/summary.md" %}
   <h3>{{ translations["results_per_principle"][language] }}*</h3>
-  <p>* El número total de principios puede estar considerando criterios no aplicables</p>
+  <p>* El número total de principios puede estar considerando criterios no aplicables.</p>
   {% sc_table issueList, language, evaluation.targetLevel, evaluation.targetWcagVersion %}
   <section id="results">
   <h3>Resultados por lineamiento</h3>
-  <p>En base a los resultados recabados podemos indicar que la web posee los siguientes porcentajes de compliance en los distintos estándares:</p>
+  <p>En base a los resultados obtenidos podemos indicar que la web posee los siguientes porcentajes de compliance en los distintos estándares:</p>
   <table>
       <tr>
           <th>Lineamiento</th>

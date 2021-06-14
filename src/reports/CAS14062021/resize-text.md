@@ -11,11 +11,11 @@ title: Cambiar tamaño del texto
 
 #### Problema
 
-Al realizar cambios de tamaño se evidencia pérdida de algunos elementos accionables (menú)
+Al realizar cambios de tamaño se evidencia pérdida de algunos elementos accionables (menú).
 
 #### Solución
 
-Facilitar cambios de tamaño de texto mediante el uso de botones en la misma página
+Facilitar cambios de tamaño de texto mediante el uso de botones en la misma página.
 
 #### Leer más
 

@@ -15,7 +15,7 @@ Se evidencian botones sin nombre o valor asociado.
 
 #### Solución
 
-Utilizar valores o nombres en dichos elementos
+Utilizar valores o nombres en dichos elementos.
 
 #### Leer más
 

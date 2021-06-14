@@ -11,11 +11,11 @@ title: Orientación
 
 #### Problema
 
-Se evidencia la pérdida de accionables al usar formatos más estrechos (móvil o tablet)
+Se evidencia la pérdida de accionables al usar formatos más estrechos (móvil o tablet).
 
 #### Solución
 
-Revisar props aria en elemento menú
+Revisar props `aria` en elemento menú
 
 #### Leer más
 

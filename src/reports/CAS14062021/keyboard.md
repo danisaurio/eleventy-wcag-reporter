@@ -9,11 +9,11 @@ title: Teclado
 </figure>
 #### Problema
 
-Existencia de contenido no focusable solo con el teclado
+Existencia de contenido no focusable solo con el teclado.
 
 #### Solución
 
-Cada elemento que posea algun tipo de interatividad con el usuario (como botones o inputs) debe ser accesible mediante el uso exclusivo de teclado, y a su vez, poder ser accioando por el mismo
+Cada elemento que posea algún tipo de interactividad con el usuario (como botones o inputs) debe ser accesible mediante el uso exclusivo de teclado, y a su vez, poder ser accionado por el mismo.
 
 #### Leer más
 

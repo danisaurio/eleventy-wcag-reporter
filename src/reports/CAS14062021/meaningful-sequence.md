@@ -11,11 +11,11 @@ title: Secuencia significativa
 
 #### Problema
 
-La página lo posee una estructura jerárquica de contenidos clara, lo cual dificulta su navegación a través de tecnologías asistivas
+La página lo posee una estructura jerárquica de contenidos clara, lo cual dificulta su navegación a través de tecnologías asistidas.
 
 #### Solución
 
-Es necesario organizar el texto de forma jerarquica, de manera de que cada item catalogo como "titulo" o "subtitulo" mediante headings en el HTML, esten contenidos dentro de un elemento mayor
+Es necesario organizar el texto de forma jerárquica, de manera de que cada item sea catalogado como “titulo” o “subtitulo” mediante headings en el HTML y estén contenidos dentro de un elemento mayor.
 
 #### Leer más
 

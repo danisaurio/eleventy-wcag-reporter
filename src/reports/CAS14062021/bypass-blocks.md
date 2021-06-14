@@ -5,11 +5,11 @@ title: Blocks de Bypass
 
 #### Problema
 
-No se evidencia mecanismo de bypass
+No se evidencia mecanismo de bypass.
 
 #### Solución
 
-Cada página debe poseer al menos un mecanismo de bypass para acceder al contenido principal de la misma
+Cada página debe poseer al menos un mecanismo de bypass para acceder al contenido principal de la misma.
 
 #### Leer más
 

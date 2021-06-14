@@ -11,11 +11,11 @@ title: Contenido no textual
 
 #### Problema
 
-Se evidencia el uso de textos alternativos en las imágenes presentes en el sitio, no obstante, contienen información incompleta o irrelevante para el usuario. Esto puede causar confusion en usuarios y entorpecer el flujo de los mismos
+Se evidencia el uso de textos alternativos en las imágenes presentes en el sitio, no obstante, contienen información incompleta o irrelevante para el usuario. Esto puede causar confusión en usuarios y entorpecer el flujo de los mismos.
 
 #### Solución
 
-Remover el textos alternativos en imagen con propósito decorativo y ampliar explicación de contenido en imágenes con propósito informativo
+Remover el textos alternativos en imagen con propósito decorativo y ampliar explicación de contenido en imágenes con propósito informativo.
 
 #### Leer más
 

@@ -5,11 +5,11 @@ title: Foco Visible
 
 #### Problema
 
-No se evidencia mecanismo de bypass
+Existen momentos en que el foco de la pagina se pierde.
 
 #### Solución
 
-Cada página debe poseer al menos un mecanismo de bypass para acceder al contenido principal de la misma
+El foco debe ser visible en todo momento, durante la navegación por teclado.
 
 #### Leer más
 
