@@ -10,7 +10,7 @@ layout: base
 {%- for report in collections.reports -%}
 <li>
   <a href="{{ report.url }}">
-    {{ report.data.title }} by {{ report.data.evaluation.evaluator }}
+    {{ report.data.title }} by {{ report.data.evaluation.evaluator }} ({{report.data.evaluation.date}})
   </a>
 </li>
 {%- endfor -%}

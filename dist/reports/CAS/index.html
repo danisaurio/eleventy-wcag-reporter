@@ -1,0 +1,507 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Clínica Alemana de Santiago</title>
+  <link rel="stylesheet" href="../../_assets/css/main.css">
+	<style>code[class*="language-"],pre[class*="language-"]{color:#545454;background:none;font-family:Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace;text-align:left;white-space:pre;word-spacing:normal;word-break:normal;word-wrap:normal;line-height:1.8;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-hyphens:none;-moz-hyphens:none;-ms-hyphens:none;hyphens:none}pre[class*="language-"]{border-top:1px solid #ccc;border-bottom:1px solid #ccc;padding:1em;margin:1em 0;overflow:auto;}:not(pre) > code[class*="language-"],pre[class*="language-"]{background:#fefefe}:not(pre) > code[class*="language-"]{white-space:normal}.token.cdata,.token.comment,.token.doctype,.token.prolog{color:#696969}.token.punctuation{color:#545454}.token.constant,.token.deleted,.token.property,.token.symbol,.token.tag{color:#007faa}.token.boolean,.token.number{color:#008000}.token.attr-name,.token.builtin,.token.char,.token.inserted,.token.selector,.token.string{color:#aa5d00}.language-css .token.string,.style .token.string,.token.entity,.token.operator,.token.url,.token.variable{color:#008000}.token.atrule,.token.attr-value,.token.function{color:#aa5d00}.token.keyword{color:#d91e18}.token.important,.token.regex{color:#d91e18}.token.bold,.token.important{font-weight:bold}.token.italic{font-style:italic}.token.entity{cursor:help}@media screen and (-ms-high-contrast: active){code[class*="language-"],pre[class*="language-"]{color:windowText;background:window}:not(pre) > code[class*="language-"],pre[class*="language-"]{background:window}.token.important{background:highlight;color:window;font-weight:normal}.token.atrule,.token.attr-value,.token.function,.token.keyword,.token.operator,.token.selector{font-weight:bold}.token.attr-value,.token.comment,.token.doctype,.token.function,.token.keyword,.token.operator,.token.property,.token.string{color:highlight}.token.attr-value,.token.url{font-weight:normal}}@media (prefers-color-scheme:dark){code[class*=language-],pre[class*=language-]{color:#f8f8f2;background:0 0;font-family:Consolas,Monaco,'Andale Mono','Ubuntu Mono',monospace;text-align:left;white-space:pre;word-spacing:normal;word-break:normal;word-wrap:normal;line-height:1.5;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-hyphens:none;-moz-hyphens:none;-ms-hyphens:none;hyphens:none}pre[class*=language-]{padding:1em;margin:.5em 0;overflow:auto;border-radius:.3em}:not(pre)>code[class*=language-],pre[class*=language-]{background:#2b2b2b}:not(pre)>code[class*=language-]{padding:.1em;border-radius:.3em;white-space:normal}.token.cdata,.token.comment,.token.doctype,.token.prolog{color:#d4d0ab}.token.punctuation{color:#fefefe}.token.constant,.token.deleted,.token.property,.token.symbol,.token.tag{color:#ffa07a}.token.boolean,.token.number{color:#00e0e0}.token.attr-name,.token.builtin,.token.char,.token.inserted,.token.selector,.token.string{color:#abe338}.language-css .token.string,.style .token.string,.token.entity,.token.operator,.token.url,.token.variable{color:#00e0e0}.token.atrule,.token.attr-value,.token.function{color:gold}.token.keyword{color:#00e0e0}.token.important,.token.regex{color:gold}.token.bold,.token.important{font-weight:700}.token.italic{font-style:italic}.token.entity{cursor:help}}@media screen and (-ms-high-contrast:active){code[class*=language-],pre[class*=language-]{color:windowText;background:window}:not(pre)>code[class*=language-],pre[class*=language-]{background:window}.token.important{background:highlight;color:window;font-weight:400}.token.atrule,.token.attr-value,.token.function,.token.keyword,.token.operator,.token.selector{font-weight:700}.token.attr-value,.token.comment,.token.doctype,.token.function,.token.keyword,.token.operator,.token.property,.token.string{color:highlight}.token.attr-value,.token.url{font-weight:400}}</style> 
+   
+</head>
+<body>
+    
+<link rel="stylesheet" href="../../_assets/css/report.css">
+
+
+
+
+
+<section id="start">
+  <img src="../../_assets/images/logo.svg" alt="" class="logo">
+
+  <h1>Informe de accesibilidad para  Clínica Alemana de Santiago</h1>
+
+  <dl>
+    <dt>Evaluado por</dt>
+    <dd>Daniela Vidal</dd>
+    <dt>Solicitado por</dt>
+    <dd>Continuum SpA.</dd>
+    <dt></dt>
+    <dd><a href=""></a> </dd>
+    <dt>Objetivo</dt>
+    <dd>WCAG 2.1, Level AA</dd>
+    <dt>Fecha</dt>
+    <dd>14 de Junio 2021</dd>
+    
+  </dl>
+</section>
+
+<section id="executive-summary">
+  <h2>Resumen ejecutivo</h2>
+  
+<p>El siguiente informe describe la adherencia del sitio web <strong>www.clinicaalemana.cl</strong> con los lineamientos de accesibilidad de contenido web (WCAG, por sus siglas en inglés) desarrollados por la W3C. El proceso de evaluación de describe a continuación y está basado en el análisis generado por recursos de evaluación de accesibilidad</p>
+<p>De acuerdo a esta evaluación, el sitio web <strong>no cumple</strong> con los niveles AA de la WCAG en su edición 2.1. A continuación se puede encontrar una descripción detallada de este análisis sey recursos para desarrolladores.</p>
+
+  <h3>Resultados por principio</h3>
+  
+  <table class="sc-table">
+  <thead>
+    <tr>
+      <td>Principio</td>
+      <td>Resultados por principio</td>
+    </tr>
+  </thead>
+  <tbody>
+  <tr>
+    <td>Percibible</td>
+    <td>12 de 20</td>
+  </tr>
+  <tr>
+      <td>Operable</td>
+      <td>13 de 17 </td>
+  </tr>
+  <tr>
+      <td>Entendible</td>
+      <td>10 de 10 </td>
+  </tr>
+  <tr>
+      <td>Robusto</td>
+      <td>1 de 3 </td>
+  </tr>
+  <tr>
+      <td>Total</td>
+      <td>36 de 50</td>
+  </tr>
+  <tbody>
+  </table>
+</section>
+
+<section id="explanation-of-report">
+  <h2>Resultados</h2>
+  <p>En base a los resultados recabados podemos indicar que la web posee los siguientes porcentajes de compliance en los distintos estándares:</p>
+<table>
+<thead>
+<tr>
+<th>Lineamiento</th>
+<th>Tipo A</th>
+<th>Tipo AA</th>
+<th>Total</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Criterios evaluados</td>
+<td>15</td>
+<td>11</td>
+<td>26</td>
+</tr>
+<tr>
+<td>Criterios complidos</td>
+<td>7,5</td>
+<td>6,5</td>
+<td>14</td>
+</tr>
+<tr>
+<td><strong>Compliance</strong></td>
+<td><strong>50%</strong></td>
+<td><strong>59%</strong></td>
+<td><strong>53,8%</strong></td>
+</tr>
+</tbody>
+</table>
+
+</section>
+
+<section id="scope">
+  <h2>Alcance</h2>
+  <h3>Páginas</h3>
+  
+  <p>Alcance:
+  <ul>
+    
+    <li>https://www.clinicaalemana.cl/</li>
+    
+  </ul>
+  
+  
+  <p>Fuera de alcance:
+  <ul>
+    
+    <li>Cualquier otra web no señalada dentro del alcance</li>
+    
+    
+  </ul>
+  <h3>Soporte de accesibilidad</h3>
+  <p>El sitio web auditado debe trabajar en al menos los siguientes navegadores y tecnologías de asistencia: </p>
+  <ul>
+    
+    <li>Mozilla Firefox (last 3 versions)</li>
+    
+    <li>Google Chrome (last 3 versions)</li>
+    
+    <li>Apple Safari (last 3 versions)</li>
+    
+    <li>Tecnología de asistencia comunes (NVDA, VoiceOver)</li>
+    
+  </ul>
+  <h3>Tecnologías utilizadas</h3>
+  <p>La página web auditada utiliza en las siguientes tecnologías: </p>
+  <ul>
+    
+    <li>HTML</li>
+    
+    <li>CSS</li>
+    
+    <li>JavaScript</li>
+    
+  </ul>
+</section>
+
+<section id="sample">
+  <h2>Muestra</h2>
+  <p>Muestra representativa</p>
+  <ul class="sample-list">
+    
+    <li id="homepage">
+      <div>
+        <img src="images/homepage.png" alt="" />
+      </div>
+      <div>
+        <strong>Homepage</strong>
+        <a href="https://www.clinicaalemana.cl/">https://www.clinicaalemana.cl/</a>
+        <p>Homepage Clinica Alemana.</p></li>
+      </div>
+    
+  </ul>
+</section>
+
+<section id="issues">
+  <h2>Problemas</h2>
+  <ol>
+  
+    
+    <li><a href="#contenido-no-textual">Contenido no textual</a> (1.1.1)</li>
+    
+  
+    
+    <li><a href="#informacion-y-relaciones">Información y relaciones</a> (1.3.1)</li>
+    
+  
+    
+    <li><a href="#secuencia-significativa">Secuencia significativa</a> (1.3.2)</li>
+    
+  
+    
+    <li><a href="#caracteristicas-sensoriales">Características sensoriales</a> (1.3.3)</li>
+    
+  
+    
+    <li><a href="#orientacion">Orientación</a> (1.3.4)</li>
+    
+  
+    
+    <li><a href="#contraste-minimo">Contraste (Mínimo)</a> (1.4.3)</li>
+    
+  
+    
+    <li><a href="#cambiar-tamano-del-texto">Cambiar tamaño del texto</a> (1.4.4)</li>
+    
+  
+    
+    <li><a href="#contenido-en-hover-o-foco">Contenido en hover o foco</a> (1.4.13)</li>
+    
+  
+    
+    <li><a href="#teclado">Teclado</a> (2.1.1)</li>
+    
+  
+    
+    <li><a href="#blocks-de-bypass">Blocks de Bypass</a> (2.4.1)</li>
+    
+  
+    
+    <li><a href="#orden-de-foco">Orden de foco</a> (2.4.3)</li>
+    
+  
+    
+    <li><a href="#foco-visible">Foco Visible</a> (2.4.7)</li>
+    
+  
+    
+    <li><a href="#parseo">Parseo</a> (4.1.1)</li>
+    
+  
+    
+    <li><a href="#nombre-rol-valor">Nombre, rol, valor</a> (4.1.2)</li>
+    
+  
+  </ol>
+  
+    
+    <article class="issue">
+      <h3 id="contenido-no-textual" data-issue="Problema" class="issue-title">Contenido no textual</h3>
+      <figure>
+<p><img src="images/icons.png" alt="alt text"></p>
+</figure>
+<h4>Problema</h4>
+<p>Se evidencia el uso de textos alternativos en las imágenes presentes en el sitio, no obstante, contienen información incompleta o irrelevante para el usuario. Esto puede causar confusion en usuarios y entorpecer el flujo de los mismos</p>
+<h4>Solución</h4>
+<p>Remover el textos alternativos en imagen con propósito decorativo y ampliar explicación de contenido en imágenes con propósito informativo</p>
+<h4>Leer más</h4>
+<ul>
+<li><a href="https://www.w3.org/WAI/WCAG21/Understanding/non-text-content.html">Comprendiendo el criterio de exito 1.1.1: Contenido no-textual</a></li>
+</ul>
+
+
+      
+    </article>
+    
+  
+    
+    <article class="issue">
+      <h3 id="informacion-y-relaciones" data-issue="Problema" class="issue-title">Información y relaciones</h3>
+      <figure>
+<p><img src="images/landmarks.png" alt="alt text"></p>
+</figure>
+<h4>Problema</h4>
+<p>La página carece de una estructura relacional adecuada, no se evidencia uso de landmark ‘Main’</p>
+<h4>Solución</h4>
+<p>Utilizar el landmark <code>main</code> Para indicar el la posicion del contenido principal del sitio</p>
+<h4>Leer más</h4>
+<ul>
+<li><a href="https://www.w3.org/WAI/WCAG21/Understanding/info-and-relationships.html">Comprendiendo el criterio de exito 1.3.1: Información y relaciones</a></li>
+</ul>
+
+
+      
+    </article>
+    
+  
+    
+    <article class="issue">
+      <h3 id="secuencia-significativa" data-issue="Problema" class="issue-title">Secuencia significativa</h3>
+      <figure>
+<p><img src="images/headings.png" alt="alt text"></p>
+</figure>
+<h4>Problema</h4>
+<p>La página lo posee una estructura jerárquica de contenidos clara, lo cual dificulta su navegación a través de tecnologías asistivas</p>
+<h4>Solución</h4>
+<p>Es necesario organizar el texto de forma jerarquica, de manera de que cada item catalogo como &quot;titulo&quot; o &quot;subtitulo&quot; mediante headings en el HTML, esten contenidos dentro de un elemento mayor</p>
+<h4>Leer más</h4>
+<ul>
+<li><a href="https://www.w3.org/WAI/WCAG21/Understanding/info-and-relationships.html">Comprendiendo el criterio de exito 1.3.2: Secuencia significativa</a></li>
+</ul>
+
+
+      
+    </article>
+    
+  
+    
+    <article class="issue">
+      <h3 id="caracteristicas-sensoriales" data-issue="Problema" class="issue-title">Características sensoriales</h3>
+      <figure>
+<p><img src="images/arrowbuttons.png" alt="alt text"></p>
+</figure>
+<h4>Problema</h4>
+<p>Presencia de botones sin instrucciones de uso más que las indicadas de forma visual.</p>
+<h4>Solución</h4>
+<p>Utilizar labels o nombres en dichos elementos</p>
+<h4>Leer más</h4>
+<ul>
+<li><a href="https://www.w3.org/WAI/WCAG21/Understanding/sensory-characteristics.html">Comprendiendo el criterio de exito 1.3.3: Características sensoriales</a></li>
+</ul>
+
+
+      
+    </article>
+    
+  
+    
+    <article class="issue">
+      <h3 id="orientacion" data-issue="Problema" class="issue-title">Orientación</h3>
+      <figure>
+<p><img src="images/orientation.png" alt="alt text"></p>
+</figure>
+<h4>Problema</h4>
+<p>Se evidencia la pérdida de accionables al usar formatos más estrechos (móvil o tablet)</p>
+<h4>Solución</h4>
+<p>Revisar props aria en elemento menú</p>
+<h4>Leer más</h4>
+<ul>
+<li><a href="https://www.w3.org/WAI/WCAG21/Understanding/orientation.html">Comprendiendo el criterio de exito 1.3.4: Orientación</a></li>
+</ul>
+
+
+      
+    </article>
+    
+  
+    
+    <article class="issue">
+      <h3 id="contraste-minimo" data-issue="Problema" class="issue-title">Contraste (Mínimo)</h3>
+      <figure>
+<p><img src="images/contrasteminimo.png" alt="alt text"></p>
+</figure>
+<h4>Problema</h4>
+<p>Se evidencian contrastes de hasta 2.93:1</p>
+<h4>Solución</h4>
+<p>Aumentar contraste entre elementos a un mínino de 4.5:1</p>
+<h4>Leer más</h4>
+<ul>
+<li><a href="https://www.w3.org/WAI/WCAG21/Understanding/contrast-minimum.html">Comprendiendo el criterio de exito 1.4.3: Contraste (Mínimo)</a></li>
+</ul>
+
+
+      
+    </article>
+    
+  
+    
+    <article class="issue">
+      <h3 id="cambiar-tamano-del-texto" data-issue="Problema" class="issue-title">Cambiar tamaño del texto</h3>
+      <figure>
+<p><img src="images/orientation.png" alt="alt text"></p>
+</figure>
+<h4>Problema</h4>
+<p>Al realizar cambios de tamaño se evidencia pérdida de algunos elementos accionables (menú)</p>
+<h4>Solución</h4>
+<p>Facilitar cambios de tamaño de texto mediante el uso de botones en la misma página</p>
+<h4>Leer más</h4>
+<ul>
+<li><a href="https://www.w3.org/WAI/WCAG21/Understanding/resize-text.html">Comprendiendo el criterio de exito 1.4.4: Cambiar tamaño del texto</a></li>
+</ul>
+
+
+      
+    </article>
+    
+  
+    
+    <article class="issue">
+      <h3 id="contenido-en-hover-o-foco" data-issue="Problema" class="issue-title">Contenido en hover o foco</h3>
+      <h4>Problema</h4>
+<p>Se evidencia pérdida de foco en algunas partes de la navegación</p>
+<h4>Solución</h4>
+<p>Utilizar props aris adecuadas a cada elementos asi como tab-index</p>
+<h4>Leer más</h4>
+<ul>
+<li><a href="https://www.w3.org/WAI/WCAG21/Understanding/content-on-hover-or-focus.html">Comprendiendo el criterio de exito 1.4.13: Contenido en hover o foco</a></li>
+</ul>
+
+
+      
+    </article>
+    
+  
+    
+    <article class="issue">
+      <h3 id="teclado" data-issue="Problema" class="issue-title">Teclado</h3>
+      <h4>Problema</h4>
+<p>Existencia de contenido no focusable solo con el teclado</p>
+<h4>Solución</h4>
+<p>Cada elemento que posea algun tipo de interatividad con el usuario (como botones o inputs) debe ser accesible mediante el uso exclusivo de teclado, y a su vez, poder ser accioando por el mismo</p>
+<h4>Leer más</h4>
+<ul>
+<li><a href="https://www.w3.org/WAI/WCAG21/Understanding/keyboard.html">Comprendiendo el criterio de exito 2.1.1: Teclado</a></li>
+</ul>
+
+
+      
+    </article>
+    
+  
+    
+    <article class="issue">
+      <h3 id="blocks-de-bypass" data-issue="Problema" class="issue-title">Blocks de Bypass</h3>
+      <h4>Problema</h4>
+<p>No se evidencia mecanismo de bypass</p>
+<h4>Solución</h4>
+<p>Cada página debe poseer al menos un mecanismo de bypass para acceder al contenido principal de la misma</p>
+<h4>Leer más</h4>
+<ul>
+<li><a href="https://www.w3.org/WAI/WCAG21/Understanding/bypass-blocks.html">Comprendiendo el criterio de exito 2.4.1: Blocks de Bypass</a></li>
+</ul>
+
+
+      
+    </article>
+    
+  
+    
+    <article class="issue">
+      <h3 id="orden-de-foco" data-issue="Problema" class="issue-title">Orden de foco</h3>
+      <h4>Problema</h4>
+<p>Foco alterado en algunas partes del sitio</p>
+<h4>Solución</h4>
+<p>Mantener foco constante en el sitio ante navegacion por teclado y utilizar tab-index en caso de corresponder</p>
+<h4>Leer más</h4>
+<ul>
+<li><a href="https://www.w3.org/WAI/WCAG21/Understanding/focus-order.html">Comprendiendo el criterio de exito 2.4.3: Orden de foco</a></li>
+</ul>
+
+
+      
+    </article>
+    
+  
+    
+    <article class="issue">
+      <h3 id="foco-visible" data-issue="Problema" class="issue-title">Foco Visible</h3>
+      <h4>Problema</h4>
+<p>No se evidencia mecanismo de bypass</p>
+<h4>Solución</h4>
+<p>Cada página debe poseer al menos un mecanismo de bypass para acceder al contenido principal de la misma</p>
+<h4>Leer más</h4>
+<ul>
+<li><a href="https://www.w3.org/WAI/WCAG21/Understanding/focus-visible.html">Comprendiendo el criterio de exito 2.4.7: Foco Visible</a></li>
+</ul>
+
+
+      
+    </article>
+    
+  
+    
+    <article class="issue">
+      <h3 id="parseo" data-issue="Problema" class="issue-title">Parseo</h3>
+      <h4>Problema</h4>
+<p>Se evidencian fallas en el uso de HTML</p>
+<h4>Solución</h4>
+<p>Utilizar elementos HTML de acuerdo a las especificaciones</p>
+<h4>Leer más</h4>
+<ul>
+<li><a href="https://www.w3.org/WAI/WCAG21/Understanding/parsing.html">Comprendiendo el criterio de exito 4.1.1: parsing</a></li>
+</ul>
+
+
+      
+    </article>
+    
+  
+    
+    <article class="issue">
+      <h3 id="nombre-rol-valor" data-issue="Problema" class="issue-title">Nombre, rol, valor</h3>
+      <figure>
+<p><img src="images/arrowbuttons.png" alt="alt text"></p>
+</figure>
+<h4>Problema</h4>
+<p>Se evidencian botones sin nombre o valor asociado.</p>
+<h4>Solución</h4>
+<p>Utilizar valores o nombres en dichos elementos</p>
+<h4>Leer más</h4>
+<ul>
+<li><a href="https://www.w3.org/WAI/WCAG21/Understanding/name-role-value.html">Comprendiendo el criterio de exito 4.1.2: Nombre, rol, valor</a></li>
+</ul>
+
+
+      
+    </article>
+    
+  
+</section>
+
+
+
+</body>
+</html>
