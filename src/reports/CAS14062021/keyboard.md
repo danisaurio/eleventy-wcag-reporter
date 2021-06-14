@@ -2,7 +2,11 @@
 sc: 2.1.1
 title: Teclado
 ---
+<figure>
 
+![alt text](images/keyboard.png) 
+
+</figure>
 #### Problema
 
 Existencia de contenido no focusable solo con el teclado
