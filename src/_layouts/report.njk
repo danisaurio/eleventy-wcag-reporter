@@ -9,10 +9,11 @@ layout: base
 {% set tipsList = collections[tipsListName] %}
 
 <section id="start">
-  <img src="../../_assets/images/logo.svg" alt="" class="logo">
+  <span id="inlineDisplay">
+    <img src="../../_assets/images/logo.svg" alt="" class="logo">
 
-  <h1 class="title">{{ translations.report_for[language] }} {{ title }}</h1>
-
+    <h1 class="title">{{ translations.report_for[language] }} {{ title }}</h1>
+  </span>
   <dl>
     <dt>{{ translations.evaluated_by[language] }}</dt>
     <dd>{{ evaluation.evaluator }}</dd>

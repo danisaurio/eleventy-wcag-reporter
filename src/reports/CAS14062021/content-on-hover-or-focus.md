@@ -2,6 +2,11 @@
 sc: 1.4.13
 title: Contenido en hover o foco
 ---
+<figure>
+
+![alt text](images/conthover.png)
+
+</figure>
 
 #### Problema
 

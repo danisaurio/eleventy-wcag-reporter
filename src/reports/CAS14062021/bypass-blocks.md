@@ -2,7 +2,11 @@
 sc: 2.4.1
 title: Blocks de Bypass
 ---
+<figure>
 
+![alt text](images/bypass.png)
+
+</figure>
 #### Problema
 
 No se evidencia mecanismo de bypass.

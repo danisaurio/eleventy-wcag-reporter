@@ -2,6 +2,11 @@
 sc: 4.1.1
 title: Parseo
 ---
+<figure>
+
+![alt text](images/parsing.png)
+
+</figure>
 
 #### Problema
 

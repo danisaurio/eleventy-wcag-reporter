@@ -5,7 +5,7 @@ title: Contenido no textual
 
 <figure>
 
-![alt text](images/icons.png) 
+![alt text](images/contenidonotextual.png) 
 
 </figure>
 

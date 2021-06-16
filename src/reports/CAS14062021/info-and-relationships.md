@@ -5,7 +5,7 @@ title: Información y relaciones
 
 <figure>
 
-![alt text](images/landmarks.png) 
+![alt text](images/infoyrelac.png) 
 
 </figure>
 

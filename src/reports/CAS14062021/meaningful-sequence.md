@@ -5,7 +5,7 @@ title: Secuencia significativa
 
 <figure>
 
-![alt text](images/headings.png) 
+![alt text](images/secuencia.png) 
 
 </figure>
 

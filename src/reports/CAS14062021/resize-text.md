@@ -5,7 +5,7 @@ title: Cambiar tamaño del texto
 
 <figure>
 
-![alt text](images/orientation.png) 
+![alt text](images/tamanotxt.png) 
 
 </figure>
 

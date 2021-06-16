@@ -5,17 +5,7 @@ title: Contraste (Mínimo)
 
 <figure>
 
-![alt text](images/contraste1.png) 
-
-</figure>
-<figure>
-
-![alt text](images/contraste2.png) 
-
-</figure>
-<figure>
-
-![alt text](images/contraste3.png) 
+![alt text](images/contraste.png) 
 
 </figure>
 

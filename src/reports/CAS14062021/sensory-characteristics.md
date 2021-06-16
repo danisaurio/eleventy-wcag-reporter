@@ -5,7 +5,7 @@ title: Características sensoriales
 
 <figure>
 
-![alt text](images/arrowbuttons.png) 
+![alt text](images/sensoriales.png) 
 
 </figure>
 

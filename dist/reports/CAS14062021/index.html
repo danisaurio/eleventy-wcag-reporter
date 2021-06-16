@@ -17,13 +17,14 @@
 
 
 <section id="start">
-  <img src="../../_assets/images/logo.svg" alt="" class="logo">
+  <span id="inlineDisplay">
+    <img src="../../_assets/images/logo.svg" alt="" class="logo">
 
-  <h1 class="title">Informe de accesibilidad para  Clínica Alemana de Santiago</h1>
-
+    <h1 class="title">Informe de accesibilidad para  Clínica Alemana de Santiago</h1>
+  </span>
   <dl>
     <dt>Evaluado por</dt>
-    <dd>Daniela Vidal</dd>
+    <dd>Daniela Vidal C. y Manuel Farias P.</dd>
     <dt>Solicitado por</dt>
     <dd>Continuum SpA.</dd>
     <dt></dt>
@@ -39,11 +40,11 @@
 <section id="executive-summary">
   <h2>Resumen ejecutivo</h2>
   
-<p>El siguiente informe describe la adherencia del sitio web <strong>www.clinicaalemana.cl</strong> con los lineamientos de accesibilidad de contenido web (WCAG, por sus siglas en inglés) desarrollados por la W3C. El proceso de evaluación de describe a continuación y está basado en el análisis generado por recursos de evaluación de accesibilidad</p>
-<p>De acuerdo a esta evaluación, el sitio web <strong>no cumple</strong> con los niveles AA de la WCAG en su edición 2.1. A continuación se puede encontrar una descripción detallada de este análisis sey recursos para desarrolladores.</p>
+<p>El siguiente informe describe la adherencia del sitio web <strong>www.clinicaalemana.cl</strong> con los lineamientos de accesibilidad de contenido web (WCAG, por sus siglas en inglés) desarrollados por la W3C. El proceso de evaluación se describe a continuación y está basado en el análisis generado por recursos de evaluación de accesibilidad.</p>
+<p>De acuerdo a esta evaluación, el sitio web <strong>no cumple</strong> con los niveles AA de la WCAG en su edición 2.1. A continuación se puede encontrar una descripción detallada de este análisis y los recursos para desarrolladores.</p>
 
   <h3>Resultados por principio*</h3>
-  <p>* El número total de principios puede estar considerando criterios no aplicables</p>
+  <p>* El número total de principios puede estar considerando criterios no aplicables.</p>
   
   <table class="sc-table">
   <thead>
@@ -77,7 +78,7 @@
   </table>
   <section id="results">
   <h3>Resultados por lineamiento</h3>
-  <p>En base a los resultados recabados podemos indicar que la web posee los siguientes porcentajes de compliance en los distintos estándares:</p>
+  <p>En base a los resultados obtenidos podemos indicar que la web posee los siguientes porcentajes de compliance en los distintos estándares:</p>
   <table>
       <tr>
           <th>Lineamiento</th>
@@ -242,12 +243,12 @@
     <article class="issue">
       <h3 id="contenido-no-textual" data-issue="Problema" class="issue-title">Contenido no textual</h3>
       <figure>
-<p><img src="images/icons.png" alt="alt text"></p>
+<p><img src="images/contenidonotextual.png" alt="alt text"></p>
 </figure>
 <h4>Problema</h4>
-<p>Se evidencia el uso de textos alternativos en las imágenes presentes en el sitio, no obstante, contienen información incompleta o irrelevante para el usuario. Esto puede causar confusion en usuarios y entorpecer el flujo de los mismos</p>
+<p>Se evidencia el uso de textos alternativos en las imágenes presentes en el sitio, no obstante, contienen información incompleta o irrelevante para el usuario. Esto puede causar confusión en usuarios y entorpecer el flujo de los mismos.</p>
 <h4>Solución</h4>
-<p>Remover el textos alternativos en imagen con propósito decorativo y ampliar explicación de contenido en imágenes con propósito informativo</p>
+<p>Remover el textos alternativos en imagen con propósito decorativo y ampliar explicación de contenido en imágenes con propósito informativo.</p>
 <h4>Leer más</h4>
 <ul>
 <li><a href="https://www.w3.org/WAI/WCAG21/Understanding/non-text-content.html">Comprendiendo el criterio de exito 1.1.1: Contenido no-textual</a></li>
@@ -262,12 +263,12 @@
     <article class="issue">
       <h3 id="informacion-y-relaciones" data-issue="Problema" class="issue-title">Información y relaciones</h3>
       <figure>
-<p><img src="images/landmarks.png" alt="alt text"></p>
+<p><img src="images/infoyrelac.png" alt="alt text"></p>
 </figure>
 <h4>Problema</h4>
-<p>La página carece de una estructura relacional adecuada, no se evidencia uso de landmark ‘Main’</p>
+<p>La página carece de una estructura relacional adecuada, no se evidencia uso de landmark <code>main</code>.</p>
 <h4>Solución</h4>
-<p>Utilizar el landmark <code>main</code> Para indicar el la posicion del contenido principal del sitio</p>
+<p>Utilizar el landmark <code>main</code> Para indicar la posición del contenido principal del sitio.</p>
 <h4>Leer más</h4>
 <ul>
 <li><a href="https://www.w3.org/WAI/WCAG21/Understanding/info-and-relationships.html">Comprendiendo el criterio de exito 1.3.1: Información y relaciones</a></li>
@@ -282,12 +283,12 @@
     <article class="issue">
       <h3 id="secuencia-significativa" data-issue="Problema" class="issue-title">Secuencia significativa</h3>
       <figure>
-<p><img src="images/headings.png" alt="alt text"></p>
+<p><img src="images/secuencia.png" alt="alt text"></p>
 </figure>
 <h4>Problema</h4>
-<p>La página lo posee una estructura jerárquica de contenidos clara, lo cual dificulta su navegación a través de tecnologías asistivas</p>
+<p>La página lo posee una estructura jerárquica de contenidos clara, lo cual dificulta su navegación a través de tecnologías asistidas.</p>
 <h4>Solución</h4>
-<p>Es necesario organizar el texto de forma jerarquica, de manera de que cada item catalogo como &quot;titulo&quot; o &quot;subtitulo&quot; mediante headings en el HTML, esten contenidos dentro de un elemento mayor</p>
+<p>Es necesario organizar el texto de forma jerárquica, de manera de que cada item sea catalogado como “titulo” o “subtitulo” mediante headings en el HTML y estén contenidos dentro de un elemento mayor.</p>
 <h4>Leer más</h4>
 <ul>
 <li><a href="https://www.w3.org/WAI/WCAG21/Understanding/info-and-relationships.html">Comprendiendo el criterio de exito 1.3.2: Secuencia significativa</a></li>
@@ -302,12 +303,12 @@
     <article class="issue">
       <h3 id="caracteristicas-sensoriales" data-issue="Problema" class="issue-title">Características sensoriales</h3>
       <figure>
-<p><img src="images/arrowbuttons.png" alt="alt text"></p>
+<p><img src="images/sensoriales.png" alt="alt text"></p>
 </figure>
 <h4>Problema</h4>
 <p>Presencia de botones sin instrucciones de uso más que las indicadas de forma visual.</p>
 <h4>Solución</h4>
-<p>Utilizar labels o nombres en dichos elementos</p>
+<p>Utilizar labels o nombres en dichos elementos.</p>
 <h4>Leer más</h4>
 <ul>
 <li><a href="https://www.w3.org/WAI/WCAG21/Understanding/sensory-characteristics.html">Comprendiendo el criterio de exito 1.3.3: Características sensoriales</a></li>
@@ -325,9 +326,9 @@
 <p><img src="images/orientation.png" alt="alt text"></p>
 </figure>
 <h4>Problema</h4>
-<p>Se evidencia la pérdida de accionables al usar formatos más estrechos (móvil o tablet)</p>
+<p>Se evidencia la pérdida de accionables al usar formatos más estrechos (móvil o tablet).</p>
 <h4>Solución</h4>
-<p>Revisar props aria en elemento menú</p>
+<p>Revisar props <code>aria</code> en elemento menú</p>
 <h4>Leer más</h4>
 <ul>
 <li><a href="https://www.w3.org/WAI/WCAG21/Understanding/orientation.html">Comprendiendo el criterio de exito 1.3.4: Orientación</a></li>
@@ -342,7 +343,7 @@
     <article class="issue">
       <h3 id="contraste-minimo" data-issue="Problema" class="issue-title">Contraste (Mínimo)</h3>
       <figure>
-<p><img src="images/contrasteminimo.png" alt="alt text"></p>
+<p><img src="images/contraste.png" alt="alt text"></p>
 </figure>
 <h4>Problema</h4>
 <p>Se evidencian contrastes de hasta 2.93:1</p>
@@ -362,12 +363,12 @@
     <article class="issue">
       <h3 id="cambiar-tamano-del-texto" data-issue="Problema" class="issue-title">Cambiar tamaño del texto</h3>
       <figure>
-<p><img src="images/orientation.png" alt="alt text"></p>
+<p><img src="images/tamanotxt.png" alt="alt text"></p>
 </figure>
 <h4>Problema</h4>
-<p>Al realizar cambios de tamaño se evidencia pérdida de algunos elementos accionables (menú)</p>
+<p>Al realizar cambios de tamaño se evidencia pérdida de algunos elementos accionables (menú).</p>
 <h4>Solución</h4>
-<p>Facilitar cambios de tamaño de texto mediante el uso de botones en la misma página</p>
+<p>Facilitar cambios de tamaño de texto mediante el uso de botones en la misma página.</p>
 <h4>Leer más</h4>
 <ul>
 <li><a href="https://www.w3.org/WAI/WCAG21/Understanding/resize-text.html">Comprendiendo el criterio de exito 1.4.4: Cambiar tamaño del texto</a></li>
@@ -381,10 +382,13 @@
     
     <article class="issue">
       <h3 id="contenido-en-hover-o-foco" data-issue="Problema" class="issue-title">Contenido en hover o foco</h3>
-      <h4>Problema</h4>
-<p>Se evidencia pérdida de foco en algunas partes de la navegación</p>
+      <figure>
+<p><img src="images/conthover.png" alt="alt text"></p>
+</figure>
+<h4>Problema</h4>
+<p>Se evidencia pérdida de foco en algunas partes de la navegación.</p>
 <h4>Solución</h4>
-<p>Utilizar props aris adecuadas a cada elementos asi como tab-index</p>
+<p>Utilizar props <code>aria</code> adecuadas a cada elementos así como tab-index.</p>
 <h4>Leer más</h4>
 <ul>
 <li><a href="https://www.w3.org/WAI/WCAG21/Understanding/content-on-hover-or-focus.html">Comprendiendo el criterio de exito 1.4.13: Contenido en hover o foco</a></li>
@@ -398,10 +402,13 @@
     
     <article class="issue">
       <h3 id="teclado" data-issue="Problema" class="issue-title">Teclado</h3>
-      <h4>Problema</h4>
-<p>Existencia de contenido no focusable solo con el teclado</p>
+      <figure>
+<p><img src="images/keyboard.png" alt="alt text"></p>
+</figure>
+#### Problema
+<p>Existencia de contenido no focusable solo con el teclado.</p>
 <h4>Solución</h4>
-<p>Cada elemento que posea algun tipo de interatividad con el usuario (como botones o inputs) debe ser accesible mediante el uso exclusivo de teclado, y a su vez, poder ser accioando por el mismo</p>
+<p>Cada elemento que posea algún tipo de interactividad con el usuario (como botones o inputs) debe ser accesible mediante el uso exclusivo de teclado, y a su vez, poder ser accionado por el mismo.</p>
 <h4>Leer más</h4>
 <ul>
 <li><a href="https://www.w3.org/WAI/WCAG21/Understanding/keyboard.html">Comprendiendo el criterio de exito 2.1.1: Teclado</a></li>
@@ -415,10 +422,13 @@
     
     <article class="issue">
       <h3 id="blocks-de-bypass" data-issue="Problema" class="issue-title">Blocks de Bypass</h3>
-      <h4>Problema</h4>
-<p>No se evidencia mecanismo de bypass</p>
+      <figure>
+<p><img src="images/bypass.png" alt="alt text"></p>
+</figure>
+#### Problema
+<p>No se evidencia mecanismo de bypass.</p>
 <h4>Solución</h4>
-<p>Cada página debe poseer al menos un mecanismo de bypass para acceder al contenido principal de la misma</p>
+<p>Cada página debe poseer al menos un mecanismo de bypass para acceder al contenido principal de la misma.</p>
 <h4>Leer más</h4>
 <ul>
 <li><a href="https://www.w3.org/WAI/WCAG21/Understanding/bypass-blocks.html">Comprendiendo el criterio de exito 2.4.1: Blocks de Bypass</a></li>
@@ -433,9 +443,9 @@
     <article class="issue">
       <h3 id="orden-de-foco" data-issue="Problema" class="issue-title">Orden de foco</h3>
       <h4>Problema</h4>
-<p>Foco alterado en algunas partes del sitio</p>
+<p>Foco alterado en algunas partes del sitio.</p>
 <h4>Solución</h4>
-<p>Mantener foco constante en el sitio ante navegacion por teclado y utilizar tab-index en caso de corresponder</p>
+<p>Mantener foco constante en el sitio ante navegación por teclado y utilizar tab-index en caso de corresponder.</p>
 <h4>Leer más</h4>
 <ul>
 <li><a href="https://www.w3.org/WAI/WCAG21/Understanding/focus-order.html">Comprendiendo el criterio de exito 2.4.3: Orden de foco</a></li>
@@ -450,9 +460,9 @@
     <article class="issue">
       <h3 id="foco-visible" data-issue="Problema" class="issue-title">Foco Visible</h3>
       <h4>Problema</h4>
-<p>No se evidencia mecanismo de bypass</p>
+<p>Existen momentos en que el foco de la pagina se pierde.</p>
 <h4>Solución</h4>
-<p>Cada página debe poseer al menos un mecanismo de bypass para acceder al contenido principal de la misma</p>
+<p>El foco debe ser visible en todo momento, durante la navegación por teclado.</p>
 <h4>Leer más</h4>
 <ul>
 <li><a href="https://www.w3.org/WAI/WCAG21/Understanding/focus-visible.html">Comprendiendo el criterio de exito 2.4.7: Foco Visible</a></li>
@@ -466,10 +476,13 @@
     
     <article class="issue">
       <h3 id="parseo" data-issue="Problema" class="issue-title">Parseo</h3>
-      <h4>Problema</h4>
-<p>Se evidencian fallas en el uso de HTML</p>
+      <figure>
+<p><img src="images/parsing.png" alt="alt text"></p>
+</figure>
+<h4>Problema</h4>
+<p>Se evidencian fallas en el uso de HTML.</p>
 <h4>Solución</h4>
-<p>Utilizar elementos HTML de acuerdo a las especificaciones</p>
+<p>Utilizar elementos HTML de acuerdo a las especificaciones.</p>
 <h4>Leer más</h4>
 <ul>
 <li><a href="https://www.w3.org/WAI/WCAG21/Understanding/parsing.html">Comprendiendo el criterio de exito 4.1.1: parsing</a></li>
@@ -489,7 +502,7 @@
 <h4>Problema</h4>
 <p>Se evidencian botones sin nombre o valor asociado.</p>
 <h4>Solución</h4>
-<p>Utilizar valores o nombres en dichos elementos</p>
+<p>Utilizar valores o nombres en dichos elementos.</p>
 <h4>Leer más</h4>
 <ul>
 <li><a href="https://www.w3.org/WAI/WCAG21/Understanding/name-role-value.html">Comprendiendo el criterio de exito 4.1.2: Nombre, rol, valor</a></li>

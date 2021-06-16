@@ -62,9 +62,6 @@ li code {
 code {
     font-size: 90%;
 }
-.title{
-    display: inline;
-}
 
 .issue {
     margin: 2em 0 3em;
@@ -172,6 +169,12 @@ code {
     max-width: 5em;
     margin: 50px;
     vertical-align: middle;
+}
+#inlineDisplay{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: wrap
 }
 
 .resultsTotal{
